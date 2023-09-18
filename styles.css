@@ -1,0 +1,146 @@
+* {
+    /* outline: 1px dotted red; */
+}
+
+
+html {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+}
+
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+h2 {
+    color: hsl(179, 62%, 43%);
+    margin-left: 20px;
+}
+.h4-number1 {
+   color: hsl(71, 73%, 54%);
+   text-align: left;
+   margin-left: 20px;
+}
+.h4number2 {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.p-number1 {
+color: hsl(218, 22%, 67%);
+padding: 0px 20px;
+
+}
+
+/* containers/divs */
+.box1 {
+    background: white;
+    /* float: bottom; */
+    /* display: block; */
+    /* width: 74%; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+    
+    
+}
+.box2 {
+    background: hsl(179, 62%, 43%);
+    padding: 20px;
+    border-bottom-left-radius:8px;
+    /* border:40px; */
+    width: 50%;
+    display: inline-block;
+    
+    
+}
+.box3 {
+    background:  hsla(179, 62%, 43%, 0.696);
+    border-bottom-right-radius: 8px;
+    width: 50%;
+    display: inline-block;
+}
+.mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* border-radius: 10px; */
+    /* flex-direction: column; */
+    
+    vertical-align: middle;
+    max-width: 749px;
+    
+
+}
+
+div {
+    overflow: auto; 
+    box-sizing: border-box;
+}
+.p-money-wrap {
+    display: flex;
+    align-items:center;
+    gap: 13px;
+}
+
+/* button for sign up */
+.btn .button2 {
+    color: white;
+    background: hsl(71, 73%, 54%);
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* color for p and h4 and text align */
+p, h4 {
+    color: white;
+    /* text-align: center;
+    
+    */
+}
+  
+
+/* unordered list */
+ul {
+    margin-right: 50px;
+    text-align: left;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    list-style-type: none;
+
+}
+
+/*  font-size paragraph */
+p {
+    font-size: 16px;
+}
+/* heading 4 */
+h4 {
+    text-align: left;
+}
+.p-money {
+    text-align: left;
+    margin: 0px;
+    font-size: 32px;
+    display: inline-block;
+}
+.p-money2 {
+    margin-left: 10px;
+}
+.p-money-per-month {
+font-size: 11px;
+/* position: relative; */
+/* bottom: 50px; */
+display: inline-block;
+color: hsl(204, 43%, 80%);
+
+
+}
+li {
+    margin-bottom: 2px;
+}
